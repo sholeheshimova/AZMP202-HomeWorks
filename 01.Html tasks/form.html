@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="Firstform">
+        <label for="n">Name :</label>
+        <input type="text" id="n" name="n" placeholder="Please enter your name" maxlength="5" required>
+        <br>
+        <label for="fn"> Fav Number:</label>
+        <input type="number" id="fn" name="fn" placeholder="Please enter your fav number" min="6" max="30" required>
+        <br>
+        <label for="ps"> Password</label>
+        <input type="password" id="ps" name="ps" placeholder="Please enter your password" required>
+        <br>
+        <label for="g" >Gender:</label>
+        <input type="radio" id="g" name="g" checked  >
+        <label>Male</label>
+        <input type="radio" id="g" name="g">
+        <label >Female</label>
+        <br>
+        <label for="c">Country</label>
+        <select>
+            <option>Azerbaijan</option>
+            <option>Turkey</option>
+            <option>USA</option>
+            <option>England</option>
+        </select>
+        <br>
+        <br>
+        <label>Message:</label>
+        <br>
+        <textarea name="" id="" placeholder="Please enter your message" rows="7" cols="25" required></textarea>
+        <br>
+        <label for="s">Subscribe to newsletter</label>
+        <input type="checkbox" id="s" name="s">
+        <br>
+        <label for="f"> Upload file:</label>
+        <input type="file" id="f" name="f" multiple>
+        <br>
+        <label for="b">Birthdate</label>
+        <input type="date">
+        <br>
+        <label for="fc">Favorite Color:</label>
+        <input type="color">
+        <br>
+        <label for="pw">Personal Website:</label>
+        <input type="url" id="pw" name="pw" required>
+        <br>
+        <button>Submit</button>
+        <button>Reset</button>
+
+
+    </form>
+    <script>
+        function resetForm() {
+            document,getElementById("Firstform"),reset();
+        }
+    </script>
+</body>
+</html>
