@@ -1,0 +1,75 @@
+/*  1 burada .class selectorundan sitifade edecik */
+.a{
+    color: red;
+}
+ /*2 burada :checked den istifade olunur */
+input:checked{
+    outline: 1px solid black;
+}
+/*3 #id */
+#firstname{
+    background-color: yellow;
+}
+/*4 element */
+h1{
+    color: blue;
+}
+/*5 element.class */
+p.intro{
+    text-align: center;
+}
+/*6 element element */
+div p{
+    font-size: large;
+}
+ /*7 :hover */
+a:hover {
+    background-color: yellow;
+    font-size: 18px;
+  }
+/* 8 hover */
+img:hover{
+    transition: 2;
+    background-color: aquamarine;
+}
+/* 9 :first-child */
+p:first-child{
+    color: pink;
+}
+/* 10 :required */
+input:required{
+    color: blueviolet;
+}
+ 
+/*11 element,element */
+h1,p{
+    text-align: left
+}
+/* 12 element > element */
+div > span{
+    color: darkcyan;
+}
+/* 13 [attribute ]*/
+a[target] {
+    background-color: rgb(177, 21, 133);
+  }
+
+/* 14  :defailt*/
+input:default {
+    box-sihadow: 0 0 2px 2px red;
+  }
+  /* 15 :nth-child()*/
+  li:nth-child(2) {
+    background: lightgreen;
+  }
+
+  /* 16 :nth-last-child*/
+  p:nth-last-child(2) {
+    background: rgb(38, 130, 156);
+  }
+
+/* 17:optional */
+  input:optional {
+    background-color: yellow;
+  }
+  

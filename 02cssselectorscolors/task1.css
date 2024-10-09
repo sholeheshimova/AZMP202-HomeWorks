@@ -1,0 +1,26 @@
+h3{
+    font-size:25px;
+}
+
+.pi{
+    border: 2px solid black;
+}
+
+.hi{
+    border: 2px solid black;
+    background-color: red;
+}
+
+h2{
+     font-size: 25px;
+     background-color: yellow;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.li{
+    border: 1px solid black;
+    background-color: green;
+}
