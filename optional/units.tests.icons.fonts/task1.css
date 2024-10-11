@@ -1,0 +1,100 @@
+.cards{
+    padding: 4rem ;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.card{
+    border: 1px solid black;
+    padding: 50px 50px 100px;
+}
+
+.card1{
+    border: 1px solid pink;
+    padding: 50px 50px 100px;
+    background-color: rgb(232, 91, 15);
+}
+
+.card2{
+    border: 1px solid black;
+    padding: 50px 50px 100px;
+}
+
+ h1,h2,h3{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+ .cards i{
+    text-align: center;
+    font-size: 40px;
+    width: 20px 10px;
+    margin-left: 30px;
+    margin-right: 100px;
+ }
+ .cards .card button{
+
+    size: 100px;
+    padding: 5px 50px;
+    margin: 0;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+ }
+
+ .cards .card1 button{
+
+    size: 100px;
+    padding: 5px 50px;
+    margin: 0;
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+    border-color: red;
+ }
+
+ .cards .card2 button{
+
+    size: 100px;
+    padding: 5px 50px;
+    margin: 0;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+ }
+
+ .cards .card1 h2{
+    color: white;
+ }
+
+ .card1 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .card p{
+   color: black;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+.card2 p{
+   color: black;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+
+
+
+ .cards .card1 i{
+    color: white;
+ }
