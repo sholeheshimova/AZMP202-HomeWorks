@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.cards{
+    display: flex;
+    min-height: 50vh;
+}
+
+.left{
+    flex: 1;
+    padding: 20px;
+}
+
+.right{
+    flex: 1;
+    padding: 50px;
+    margin-top:  150px;
+}
+
+.card1{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 20px;
+   
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 70px;
+    
+}
+
+a i{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    gap: 30px; 
+    padding: 20px;
+   font-size: 20px;
+}
+
+.duyme{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 70px;
+    gap: 30px;
+}
