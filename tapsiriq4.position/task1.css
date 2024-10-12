@@ -1,0 +1,62 @@
+.container{
+    width: 80vh;
+    height: 120vh;
+    padding: 0;
+    margin: 0;
+    border: 1px solid gray;
+}
+ 
+.container .card .card1{
+    position: relative;
+}
+
+.card .card1 img{
+    width: 70vh;
+    height: 80vh;
+    margin:5vh 5vh;
+     
+
+}
+
+.container .card .box{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: white;
+    position: absolute;
+    top: 70vh;
+    left: 0;
+    color: black;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.main{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 80vh;
+    height: 30vh;
+   
+
+}
+    h4{
+        color: gray;
+        position: absolute;
+        top: 0;
+        left: 5vh;
+    }
+
+    h3{
+        position: absolute;
+        top: 5vh;
+        left: 5vh;
+    }
+    h5{
+        position: relative;
+        top: 17vh;
+        left: 5vh;
+        color: gray;
+
+    }
