@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+   position: relative;
+    width: 100%;
+    height: 200vh;
+}
+.sec1 header{
+     height: 8vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+} 
+.sec2 header{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+
+}
+
+.sec3 header{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.sec4 header{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.sec1,.sec2,.sec3,.sec4{
+    height: 40vh;
+    width: 100%;
+    
+}
+
+
