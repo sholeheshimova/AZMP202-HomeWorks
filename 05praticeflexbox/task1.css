@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav ul {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+header {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+}
+
+.row {
+  width: 100%;
+}
+#boxes {
+  display: flex;
+}
+
+h3,
+a,
+h2,
+p {
+  color: white;
+}
+
+#boxes h2 {
+  font-size: 50px;
+}
+#boxes p {
+  margin-top: 70px;
+  font-size: 20px;
+}
+.left h2 {
+  margin-top: 50px;
+}
+.right img {
+  margin-left: 100px;
+  width: 500px;
+  height: 400px;
+}
+
+#boxes .btn1 {
+  margin-top: 80px;
+  width: 90px;
+  height: 40px;
+  border: 1px solid rgb(57, 182, 235);
+  background-color: rgb(18, 170, 235);
+  color: white;
+  border-radius: 3px;
+}
+
+#boxes .btn {
+  width: 90px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+#sec2 {
+  margin-top: 100px;
+}
+.box1 {
+  border: 1px solid rgb(255, 255, 255);
+  height: 120px;
+}
+.box1 i {
+  font-size: 50px;
+}
+.box1 h4{
+    font-size: 20px;
+}
+h1 {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 50px;
+}
+.desc {
+  margin-top: 300px;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(249, 235, 235);
+  margin-bottom: 300px;
+  border-radius: 15px;
+}
+
+h5 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.card img {
+  width: 400px;
+  height: 150px;
+}
+#sec4 {
+  height: 600px;
+}
+#sec4 .row {
+  display: flex;
+}
+
+#sec4 p {
+  color: black;
+  font-family: serif;
+  justify-content: center;
+}
+
+#sec4 img {
+  width: 400px;
+  height: 250px;
+}
+
+#sec4 span {
+  width: 16px;
+  height: 10px;
+  background-color: rgb(73, 166, 247);
+  color: white;
+  border-radius: 3px;
+  margin-left: 12px;
+  
+}
+
+#sec4 h3 {
+  color: black;
+  margin-left: 12px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+
+
+#sec5 {
+  width: 100%;
+  height: 200px;
+  background-color: #3caaeb;
+  margin-bottom: 50px;
+  border-radius: 4px;
+}
+
+.email input {
+  width: 180px;
+  height: 40px;
+  outline: none;
+  border: 4px 0 0 4px;
+  margin-top: 50px;
+}
+
+.email button {
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-left: none;
+  border-radius: 0 4p 4px 0;
+  background-color: #3caaeb;
+  color: white;
+}
+#sec5 .right p {
+  margin-bottom: 50px;
+}
