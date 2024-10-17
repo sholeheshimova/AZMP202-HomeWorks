@@ -33,9 +33,9 @@ nav ul {
 
 .text {
   text-align: center;
-  position: absolute;
-  margin-top: 230px;
-  margin-left: 380px;
+  /* position: absolute; */
+  /* margin-top: 230px;
+  margin-left: 380px; */
 }
 
 h3,
@@ -139,6 +139,9 @@ h2 {
    .head nav ul{
     display: none;
    }
+   .sec1 .img {
+    background-position: left center;
+  }
 }
 
 
