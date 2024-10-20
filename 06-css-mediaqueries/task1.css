@@ -45,6 +45,14 @@ nav ul {
 .sec1 .text {
   position: absolute;
   text-align: center;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 380px;
+}
+
+h3,
+h2 {
+  font-size: 50px;
   color: white;
  
   margin-top: 200px;
@@ -220,7 +228,7 @@ nav ul {
   }
   nav ul {
     display: none;
-  }
+   }
 }
 
 @media only screen and (max-width: 767px) {
