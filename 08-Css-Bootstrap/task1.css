@@ -1,0 +1,118 @@
+.container {
+  max-width: 1200px;
+}
+
+nav .navbar-nav {
+  padding-left: 70%;
+}
+
+.navbar {
+  padding: 0;
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.sec1 {
+  background-color: black;
+  height: 500px;
+}
+
+.text {
+  padding-top: 200px;
+  padding-left: 25%;
+}
+.text h3,
+p {
+  color: white;
+}
+
+.sec1 button {
+  margin-left: 150px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 50px;
+}
+
+.cards i {
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.cards p {
+  color: black;
+}
+
+#sec2 .row {
+  margin-top: 60px;
+  justify-content: center;
+  display: flex;
+}
+#sec2 .col-4 {
+  border: 1px solid gray;
+}
+
+.sec3 .card1 {
+  border: 1px solid black;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 50px;
+  height: 150px;
+}
+.sec3 p {
+  color: black;
+  margin-top: 50px;
+}
+.sec3 i {
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 80px;
+  color: blue;
+}
+
+.sec4 form {
+  padding-top: 100px;
+  padding-left: 35%;
+}
+
+.sec4 input {
+  width: 400px;
+  margin: 10px;
+  height: 40px;
+}
+
+.sec4 textarea {
+  width: 400px;
+  margin-left: 10px;
+  height: 150px;
+}
+
+.sec4 button {
+  width: 410px;
+  margin-left: 5px;
+}
+
+.sec4 i {
+  margin-top: 60px;
+  margin-left: 48%;
+  font-size: 50px;
+}
+.sec4 h3 {
+  margin-left: 44%;
+}
+
+.sec5 {
+  margin-top: 50px;
+  background-color: black;
+  height: 100px;
+}
+
+.sec5 p {
+  color: white;
+  text-align: center;
+}
