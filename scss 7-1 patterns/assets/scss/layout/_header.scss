@@ -87,14 +87,12 @@
     }
 
     .img-content {
-      width: 100%;
-      order: -1;
-    }
-
-    @include for-phone-only{
+      width: 50%;
+      @include for-phone-only {
         flex-direction: column;
+      }
     }
 
-
+    
   }
 }

@@ -1,25 +1,33 @@
-main{
-    #partners{
-        background-color: wheat;
-        padding: 3rem 0;
-        
-        .partner{
-            display: flex;
-            gap: 20px;
-            justify-content: space-between;
-             @include for-phone-only{
-                justify-content: center;
-             
-            }
-        }
+main {
+  #partners {
+    background-color: rgb(230, 223, 211);
+    padding: 3rem 0;
+
+    .partner {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      @include for-phone-only {
+        justify-content: center;
+      }
+    }
+  }
+
+  .sec2 {
+    background-color: rgb(230, 223, 211);
+    .design-page {
+      display: flex;
+      align-items: center;
+      gap: 40px;
     }
 
-.sec2{
-    .design-page{
-        display: flex;
+    .text-content1 {
+      font-family: serif;
+      color: $color;
+      line-height: 50px;
+      button {
+        @extend %third-btn;
+      }
     }
-}
-
-
-
+  }
 }

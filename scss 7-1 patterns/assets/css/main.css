@@ -2,19 +2,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -22,12 +90,20 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  max-width: 1200px;
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -35,16 +111,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -52,6 +132,10 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 h1 {
@@ -79,13 +163,13 @@ h5 {
   color: rgb(239, 109, 88);
 }
 
-#banner .banner .text-content .btns .contact-us button, #header .btns button {
+#banner .banner .text-content .btns .contact-us button, #header .head .btns button {
   background-color: transparent;
   color: white;
   width: 138px;
   height: 48px;
 }
-#banner .banner .text-content .btns .contact-us button:hover, #header .btns button:hover {
+#banner .banner .text-content .btns .contact-us button:hover, #header .head .btns button:hover {
   background-color: rgb(239, 109, 88);
   transition: 0.6s;
 }
@@ -102,6 +186,14 @@ h5 {
   transition: 0.6s;
 }
 
+main .sec2 .text-content1 button {
+  background-color: white;
+  color: #391400;
+  width: 138px;
+  height: 48px;
+  font-size: 20px;
+}
+
 #header .head {
   justify-content: space-around;
   align-items: center;
@@ -116,9 +208,23 @@ h5 {
 #header .head nav ul li a {
   color: white;
 }
+@media (max-width: 767px) {
+  #header .head nav {
+    display: none;
+  }
+}
+#header .head .menu {
+  display: none;
+}
+@media (max-width: 767px) {
+  #header .head .menu {
+    display: block;
+  }
+}
+
 #banner {
   background-color: rgb(40, 41, 62);
-  padding: 3rem o;
+  padding: 3rem 0;
 }
 #banner .banner {
   justify-content: space-around;
@@ -159,16 +265,23 @@ h5 {
 #banner .banner .text-content .feedback .feedtext span {
   color: white;
 }
-
-/* .container {
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
+#banner .banner .img-content {
+  width: 50%;
+}
+@media (max-width: 767px) {
+  #banner .banner .img-content {
+    flex-direction: column;
+  }
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 5%;
+  }
 }
 
 .row {
@@ -355,5 +468,31 @@ h5 {
   .p-sm-right-0 {
     padding-right: 0;
   }
+}
+main #partners {
+  background-color: rgb(230, 223, 211);
+  padding: 3rem 0;
+}
+main #partners .partner {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  main #partners .partner {
+    justify-content: center;
+  }
+}
+main .sec2 {
+  background-color: rgb(230, 223, 211);
+}
+main .sec2 .design-page {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+main .sec2 .text-content1 {
+  font-family: serif;
+  color: #391400;
+  line-height: 50px;
 }/*# sourceMappingURL=main.css.map */
-
