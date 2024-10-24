@@ -1,0 +1,25 @@
+main{
+    #partners{
+        background-color: wheat;
+        padding: 3rem 0;
+        
+        .partner{
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+             @include for-phone-only{
+                justify-content: center;
+             
+            }
+        }
+    }
+
+.sec2{
+    .design-page{
+        display: flex;
+    }
+}
+
+
+
+}

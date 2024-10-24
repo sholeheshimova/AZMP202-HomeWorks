@@ -1,0 +1,100 @@
+#header {
+  .head {
+    @include flexbox();
+    background-color: $bg-secondary-color;
+    height: 80px;
+    nav {
+      ul {
+        display: flex;
+        gap: 30px;
+        li {
+          a {
+            color: $bg-color-1;
+          }
+        }
+      }
+
+      @include for-phone-only {
+        display: none;
+      }
+    }
+    .btns {
+      button {
+        @extend %primary-btn;
+      }
+    }
+
+    .menu {
+      display: none;
+
+      @include for-phone-only {
+        display: block;
+      }
+    }
+  }
+}
+
+#banner {
+  background-color: $bg-secondary-color;
+  padding: 3rem 0;
+  .banner {
+    @include flexbox();
+    .text-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.5rem;
+      h1 {
+        position: relative;
+        z-index: 1;
+        max-width: 513px;
+        line-height: 80px;
+      }
+      p {
+        color: $bg-color-1;
+        opacity: 0.64;
+        line-height: 2rem;
+        max-width: 470px;
+      }
+      .star {
+        position: absolute;
+        top: 0;
+        right: 30%;
+      }
+      .btns {
+        display: flex;
+        gap: 20px;
+        .how-we-work {
+          button {
+            @extend %secondary-btn;
+          }
+        }
+        .contact-us {
+          button {
+            @extend %primary-btn;
+          }
+        }
+      }
+      .feedback {
+        display: flex;
+        gap: 20px;
+        .feedtext {
+          span {
+            color: $bg-color-1;
+          }
+        }
+      }
+    }
+
+    .img-content {
+      width: 100%;
+      order: -1;
+    }
+
+    @include for-phone-only{
+        flex-direction: column;
+    }
+
+
+  }
+}
