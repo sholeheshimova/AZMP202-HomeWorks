@@ -39,6 +39,7 @@
   padding: 3rem 0;
   .banner {
     @include flexbox();
+    
     .text-content {
       position: relative;
       display: flex;
@@ -88,13 +89,12 @@
 
     .img-content {
       width: 100%;
-      order: -1;
-    }
-
-    @include for-phone-only{
+      @include flexbox();
+      @include for-phone-only {
         flex-direction: column;
+      }
     }
 
-
+    
   }
 }

@@ -22,7 +22,6 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  max-width: 1200px;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -54,6 +53,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 72px;
   color: white;
@@ -79,27 +82,35 @@ h5 {
   color: rgb(239, 109, 88);
 }
 
-#banner .banner .text-content .btns .contact-us button, #header .btns button {
+main .sec3 button, #banner .banner .text-content .btns .contact-us button, #header .head .btns button {
   background-color: transparent;
   color: white;
   width: 138px;
   height: 48px;
 }
-#banner .banner .text-content .btns .contact-us button:hover, #header .btns button:hover {
+main .sec3 button:hover, #banner .banner .text-content .btns .contact-us button:hover, #header .head .btns button:hover {
   background-color: rgb(239, 109, 88);
   transition: 0.6s;
 }
 
-#banner .banner .text-content .btns .how-we-work button {
+main .sec3 .card2 button, #banner .banner .text-content .btns .how-we-work button {
   background-color: rgb(239, 109, 88);
   color: white;
   width: 154px;
   height: 48px;
 }
-#banner .banner .text-content .btns .how-we-work button:hover {
+main .sec3 .card2 button:hover, #banner .banner .text-content .btns .how-we-work button:hover {
   background-color: transparent;
   color: white;
   transition: 0.6s;
+}
+
+main .sec2 .text-content1 button {
+  background-color: white;
+  color: #391400;
+  width: 138px;
+  height: 48px;
+  font-size: 20px;
 }
 
 #header .head {
@@ -116,9 +127,23 @@ h5 {
 #header .head nav ul li a {
   color: white;
 }
+@media (max-width: 767px) {
+  #header .head nav {
+    display: none;
+  }
+}
+#header .head .menu {
+  display: none;
+}
+@media (max-width: 767px) {
+  #header .head .menu {
+    display: block;
+  }
+}
+
 #banner {
   background-color: rgb(40, 41, 62);
-  padding: 3rem o;
+  padding: 3rem 0;
 }
 #banner .banner {
   justify-content: space-around;
@@ -159,16 +184,26 @@ h5 {
 #banner .banner .text-content .feedback .feedtext span {
   color: white;
 }
-
-/* .container {
-  max-width: 1200px;
-  margin: 0 auto;
-} */
-
+#banner .banner .img-content {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+@media (max-width: 767px) {
+  #banner .banner .img-content {
+    flex-direction: column;
+  }
+}
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 5%;
+  }
 }
 
 .row {
@@ -355,5 +390,73 @@ h5 {
   .p-sm-right-0 {
     padding-right: 0;
   }
+}
+main #partners {
+  background-color: rgb(230, 223, 211);
+  padding: 3rem 0;
+}
+main #partners .partner {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  main #partners .partner {
+    justify-content: center;
+  }
+}
+main .sec2 {
+  background-color: rgb(230, 223, 211);
+}
+main .sec2 .design-page {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+main .sec2 .text-content1 {
+  font-family: serif;
+  color: #391400;
+  line-height: 50px;
+}
+main .sec2 .text-content1 button {
+  cursor: pointer;
+}
+main .sec3 {
+  background-color: rgb(40, 41, 62);
+  margin-top: 200px;
+  height: 1500px;
+}
+main .sec3 button {
+  margin-left: 45%;
+  margin-top: 8%;
+}
+main .sec3 .card2 {
+  width: 1170px;
+  height: 336px;
+  left: 135px;
+  border-radius: 6px;
+  background-color: rgb(253, 240, 233);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+main .sec3 .card2 .img-content2 .img1 {
+  position: relative;
+}
+main .sec3 .card2 .img-content2 .img2 {
+  position: absolute;
+  right: 14px;
+}
+main .sec3 .card2 .explain-content {
+  align-items: center;
+}
+main .sec3 .card2 button {
+  margin-left: 20px;
+  margin-top: 30px;
+  border: none;
+}
+main .sec3 .card2 button:hover {
+  color: rgb(239, 109, 88);
+  border: 1px solid rgb(239, 109, 88);
 }/*# sourceMappingURL=main.css.map */
-
