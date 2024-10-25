@@ -1,32 +1,28 @@
-%primary-btn{
+%primary-btn {
+  background-color: transparent;
+  color: $bg-color-1;
+  width: 138px;
+  height: 48px;
+  &:hover {
+    background-color: $bg-color-2;
+    transition: 0.6s;
+  }
+}
+%secondary-btn {
+  background-color: $bg-color-2;
+  color: $bg-color-1;
+  width: 154px;
+  height: 48px;
+  &:hover {
     background-color: transparent;
     color: $bg-color-1;
-    width: 138px;
-    height: 48px;
-    &:hover{
-        background-color: $bg-color-2;
-        transition: 0.6s;
-    }
+    transition: 0.6s;
+  }
 }
-%secondary-btn{
-    background-color: $bg-color-2;
-    color: $bg-color-1;
-    width: 154px;
-    height: 48px;
-    &:hover{
-        background-color: transparent;
-        color: $bg-color-1;
-        transition: 0.6s;
-    }
+%third-btn {
+  background-color: $bg-color-1;
+  color: $color;
+  width: 138px;
+  height: 48px;
+  font-size: 20px;
 }
-%third-btn{
-    background-color: $bg-color-1;
-    color: $color;
-    width: 138px;
-    height: 48px;
-    font-size: 20px
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6

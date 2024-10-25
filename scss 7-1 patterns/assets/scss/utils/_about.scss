@@ -1,0 +1,166 @@
+#header{
+    .head{
+        @include flexbox();
+        background-color: $bg-secondary-color;
+        height: 80px;
+        nav {
+          ul {
+            display: flex;
+            gap: 30px;
+            li {
+              a {
+                color: $bg-color-1;
+              }
+            }
+          }
+    
+          @include for-phone-only {
+            display: none;
+          }
+        }
+        .btns {
+          button {
+            @extend %primary-btn;
+          }
+        }
+    
+        .menu {
+          display: none;
+    
+          @include for-phone-only {
+            display: block;
+          }
+        }
+      }
+    
+      
+}
+.sec1{
+    #banner{
+        .container{
+            .row{
+                .banner{
+                    .text{
+                        color: white;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+  }
+  .sec2{
+    background-color: $bg-primary-color;
+    .text-content{
+       line-height: 64px;
+       text-align: center;
+       
+       p{
+        line-height: 32px;
+        font-size: 20px;
+       }
+       h5{
+        font-size: 20px;
+       }
+    }
+    img{
+        margin-top: 50px;
+    }
+  }
+  
+.sec3{
+    background-color: $bg-primary-color;
+   .card{
+   
+   
+    .col-6{
+        border: 1px solid $bg-color-2;
+        margin-top: 50px;
+    
+        .image{
+            display: flex;
+            position: relative;
+            .icon{
+                position: relative;   
+                   i{
+                font-size: 40px;
+                position: absolute;
+                top: calc(50% - 20px);
+                left: calc(50% - 20px);
+                color: white;
+                z-index: 1;
+            }
+            img{
+                position: relative;
+            }
+            }
+      
+            .text1{
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+   }
+}
+
+.sec4{
+    background-color: $bg-primary-color;
+    .card3{
+        justify-content: center;
+        .text{
+            text-align: center;
+            margin-top: 50px;
+            line-height: 50px;
+            h5{
+                font-size: 30px;
+            }
+            p{
+                font-size: 26px;
+                opacity: 0.6;
+            }
+    
+        }
+        .video-content{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .parag2{
+            text-align: center;
+            margin-top: 50px;
+            line-height: 40px;
+            p{
+                font-size: 20px;
+                opacity: 0.6;
+                
+            }
+        }
+    }
+
+
+}
+.sec5{
+    background-color: $bg-primary-color;
+    .card4{
+        display: flex;
+        margin-top: 60px;
+        justify-content: center;
+        .text4{
+
+           text-align: center;
+            line-height: 50px;
+            h3{
+                font-size: 60px;
+            }
+            p{
+                line-height: 50px;
+                font-size: 20px;
+            }
+            h5{
+                font-size: 20px;
+            }
+        }
+    }
+
+}

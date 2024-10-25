@@ -163,32 +163,24 @@ h5 {
   color: rgb(239, 109, 88);
 }
 
-<<<<<<< HEAD
 main .sec3 button, #banner .banner .text-content .btns .contact-us button, #header .head .btns button {
-=======
-#banner .banner .text-content .btns .contact-us button, #header .head .btns button {
->>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
   background-color: transparent;
   color: white;
   width: 138px;
   height: 48px;
 }
-<<<<<<< HEAD
 main .sec3 button:hover, #banner .banner .text-content .btns .contact-us button:hover, #header .head .btns button:hover {
-=======
-#banner .banner .text-content .btns .contact-us button:hover, #header .head .btns button:hover {
->>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
   background-color: rgb(239, 109, 88);
   transition: 0.6s;
 }
 
-main .sec3 .card2 button, #banner .banner .text-content .btns .how-we-work button {
+main .sec3 .card2 .explain-content button, #banner .banner .text-content .btns .how-we-work button {
   background-color: rgb(239, 109, 88);
   color: white;
   width: 154px;
   height: 48px;
 }
-main .sec3 .card2 button:hover, #banner .banner .text-content .btns .how-we-work button:hover {
+main .sec3 .card2 .explain-content button:hover, #banner .banner .text-content .btns .how-we-work button:hover {
   background-color: transparent;
   color: white;
   transition: 0.6s;
@@ -235,14 +227,12 @@ main .sec2 .text-content1 button {
   padding: 3rem 0;
 }
 #banner .banner {
-  justify-content: space-around;
-  align-items: center;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #banner .banner .text-content {
   position: relative;
-  display: flex;
-  flex-direction: column;
   row-gap: 1.5rem;
 }
 #banner .banner .text-content h1 {
@@ -274,14 +264,10 @@ main .sec2 .text-content1 button {
   color: white;
 }
 #banner .banner .img-content {
-<<<<<<< HEAD
   width: 100%;
   justify-content: space-around;
   align-items: center;
   display: flex;
-=======
-  width: 50%;
->>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
 }
 @media (max-width: 767px) {
   #banner .banner .img-content {
@@ -510,7 +496,6 @@ main .sec2 .text-content1 {
   font-family: serif;
   color: #391400;
   line-height: 50px;
-<<<<<<< HEAD
 }
 main .sec2 .text-content1 button {
   cursor: pointer;
@@ -518,41 +503,182 @@ main .sec2 .text-content1 button {
 main .sec3 {
   background-color: rgb(40, 41, 62);
   margin-top: 200px;
-  height: 1500px;
 }
 main .sec3 button {
   margin-left: 45%;
-  margin-top: 8%;
+  margin-top: 3%;
 }
 main .sec3 .card2 {
+  background-color: rgb(253, 240, 233);
   width: 1170px;
   height: 336px;
-  left: 135px;
   border-radius: 6px;
-  background-color: rgb(253, 240, 233);
   display: flex;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 40px;
+  margin-left: 350px;
+}
+main .sec3 .card2 .explain-content {
+  line-height: 32px;
+}
+main .sec3 .card2 .explain-content button {
+  margin-left: 20px;
+  border: none;
+}
+main .sec3 .card2 .explain-content button:hover {
+  background-color: transparent;
+  color: rgb(239, 109, 88);
+  border: 1px solid rgb(239, 109, 88);
+}
+main .sec3 .card2 .img-content2 {
+  width: 282px;
+  height: 242px;
+  position: relative;
 }
 main .sec3 .card2 .img-content2 .img1 {
-  position: relative;
+  position: absolute;
 }
 main .sec3 .card2 .img-content2 .img2 {
   position: absolute;
-  right: 14px;
+  top: 0;
+  right: -50px;
 }
-main .sec3 .card2 .explain-content {
+
+#header .head {
+  justify-content: space-around;
   align-items: center;
+  display: flex;
+  background-color: rgb(40, 41, 62);
+  height: 80px;
 }
-main .sec3 .card2 button {
-  margin-left: 20px;
-  margin-top: 30px;
-  border: none;
+#header .head nav ul {
+  display: flex;
+  gap: 30px;
 }
-main .sec3 .card2 button:hover {
-  color: rgb(239, 109, 88);
+#header .head nav ul li a {
+  color: white;
+}
+@media (max-width: 767px) {
+  #header .head nav {
+    display: none;
+  }
+}
+#header .head .menu {
+  display: none;
+}
+@media (max-width: 767px) {
+  #header .head .menu {
+    display: block;
+  }
+}
+
+.sec1 #banner .container .row .banner .text {
+  color: white;
+  text-align: center;
+}
+
+.sec2 {
+  background-color: rgb(253, 240, 233);
+}
+.sec2 .text-content {
+  line-height: 64px;
+  text-align: center;
+}
+.sec2 .text-content p {
+  line-height: 32px;
+  font-size: 20px;
+}
+.sec2 .text-content h5 {
+  font-size: 20px;
+}
+.sec2 img {
+  margin-top: 50px;
+}
+
+.sec3 {
+  background-color: rgb(253, 240, 233);
+}
+.sec3 .card .col-6 {
   border: 1px solid rgb(239, 109, 88);
-=======
->>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
+  margin-top: 50px;
+}
+.sec3 .card .col-6 .image {
+  display: flex;
+  position: relative;
+}
+.sec3 .card .col-6 .image .icon {
+  position: relative;
+}
+.sec3 .card .col-6 .image .icon i {
+  font-size: 40px;
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 20px);
+  color: white;
+  z-index: 1;
+}
+.sec3 .card .col-6 .image .icon img {
+  position: relative;
+}
+.sec3 .card .col-6 .image .text1 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.sec4 {
+  background-color: rgb(253, 240, 233);
+}
+.sec4 .card3 {
+  justify-content: center;
+}
+.sec4 .card3 .text {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 50px;
+}
+.sec4 .card3 .text h5 {
+  font-size: 30px;
+}
+.sec4 .card3 .text p {
+  font-size: 26px;
+  opacity: 0.6;
+}
+.sec4 .card3 .video-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.sec4 .card3 .parag2 {
+  text-align: center;
+  margin-top: 50px;
+  line-height: 40px;
+}
+.sec4 .card3 .parag2 p {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.sec5 {
+  background-color: rgb(253, 240, 233);
+}
+.sec5 .card4 {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+.sec5 .card4 .text4 {
+  text-align: center;
+  line-height: 50px;
+}
+.sec5 .card4 .text4 h3 {
+  font-size: 60px;
+}
+.sec5 .card4 .text4 p {
+  line-height: 50px;
+  font-size: 20px;
+}
+.sec5 .card4 .text4 h5 {
+  font-size: 20px;
 }/*# sourceMappingURL=main.css.map */

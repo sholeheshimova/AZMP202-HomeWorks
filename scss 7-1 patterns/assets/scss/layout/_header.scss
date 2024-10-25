@@ -38,12 +38,11 @@
   background-color: $bg-secondary-color;
   padding: 3rem 0;
   .banner {
-    @include flexbox();
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .text-content {
       position: relative;
-      display: flex;
-      flex-direction: column;
       row-gap: 1.5rem;
       h1 {
         position: relative;
@@ -88,17 +87,11 @@
     }
 
     .img-content {
-<<<<<<< HEAD
       width: 100%;
       @include flexbox();
-=======
-      width: 50%;
->>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
       @include for-phone-only {
         flex-direction: column;
       }
     }
-
-    
   }
 }
