@@ -88,8 +88,12 @@
     }
 
     .img-content {
+<<<<<<< HEAD
       width: 100%;
       @include flexbox();
+=======
+      width: 50%;
+>>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
       @include for-phone-only {
         flex-direction: column;
       }

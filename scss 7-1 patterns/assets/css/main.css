@@ -2,19 +2,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -25,8 +93,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -34,16 +111,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -82,13 +163,21 @@ h5 {
   color: rgb(239, 109, 88);
 }
 
+<<<<<<< HEAD
 main .sec3 button, #banner .banner .text-content .btns .contact-us button, #header .head .btns button {
+=======
+#banner .banner .text-content .btns .contact-us button, #header .head .btns button {
+>>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
   background-color: transparent;
   color: white;
   width: 138px;
   height: 48px;
 }
+<<<<<<< HEAD
 main .sec3 button:hover, #banner .banner .text-content .btns .contact-us button:hover, #header .head .btns button:hover {
+=======
+#banner .banner .text-content .btns .contact-us button:hover, #header .head .btns button:hover {
+>>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
   background-color: rgb(239, 109, 88);
   transition: 0.6s;
 }
@@ -185,10 +274,14 @@ main .sec2 .text-content1 button {
   color: white;
 }
 #banner .banner .img-content {
+<<<<<<< HEAD
   width: 100%;
   justify-content: space-around;
   align-items: center;
   display: flex;
+=======
+  width: 50%;
+>>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
 }
 @media (max-width: 767px) {
   #banner .banner .img-content {
@@ -417,6 +510,7 @@ main .sec2 .text-content1 {
   font-family: serif;
   color: #391400;
   line-height: 50px;
+<<<<<<< HEAD
 }
 main .sec2 .text-content1 button {
   cursor: pointer;
@@ -459,4 +553,6 @@ main .sec3 .card2 button {
 main .sec3 .card2 button:hover {
   color: rgb(239, 109, 88);
   border: 1px solid rgb(239, 109, 88);
+=======
+>>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
 }/*# sourceMappingURL=main.css.map */

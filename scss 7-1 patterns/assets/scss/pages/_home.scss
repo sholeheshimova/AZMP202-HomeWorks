@@ -1,4 +1,5 @@
 main {
+<<<<<<< HEAD
     #partners {
       background-color: rgb(230, 223, 211);
       padding: 3rem 0;
@@ -86,3 +87,37 @@ button{
   }
 }
 }
+=======
+  #partners {
+    background-color: rgb(230, 223, 211);
+    padding: 3rem 0;
+
+    .partner {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+      @include for-phone-only {
+        justify-content: center;
+      }
+    }
+  }
+
+  .sec2 {
+    background-color: rgb(230, 223, 211);
+    .design-page {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .text-content1 {
+      font-family: serif;
+      color: $color;
+      line-height: 50px;
+      button {
+        @extend %third-btn;
+      }
+    }
+  }
+}
+>>>>>>> 56fd7efab626362b961e49b6e42616129b6b22c6
