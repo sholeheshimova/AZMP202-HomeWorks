@@ -1,166 +1,270 @@
-#header{
-    .head{
-        @include flexbox();
-        background-color: $bg-secondary-color;
-        height: 80px;
-        nav {
-          ul {
-            display: flex;
-            gap: 30px;
-            li {
-              a {
-                color: $bg-color-1;
-              }
-            }
-          }
-    
-          @include for-phone-only {
-            display: none;
-          }
-        }
-        .btns {
-          button {
-            @extend %primary-btn;
-          }
-        }
-    
-        .menu {
-          display: none;
-    
-          @include for-phone-only {
-            display: block;
+#header {
+  .head {
+    @include flexbox();
+    background-color: $bg-secondary-color;
+    height: 80px;
+    nav {
+      ul {
+        display: flex;
+        gap: 30px;
+        li {
+          a {
+            color: $bg-color-1;
           }
         }
       }
-    
-      
+
+      @include for-phone-only {
+        display: none;
+      }
+    }
+    .btns {
+      button {
+        @extend %primary-btn;
+      }
+    }
+
+    .menu {
+      display: none;
+
+      @include for-phone-only {
+        display: block;
+      }
+    }
+  }
 }
-.sec1{
-    #banner{
-        .container{
-            .row{
-                .banner{
-                    .text{
-                        color: white;
-                        text-align: center;
-                    }
+.sec1 {
+  #banner {
+    .container {
+      .row {
+        .banner {
+          .text {
+            color: white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+.sec2 {
+  background-color: $bg-primary-color;
+  .text-content {
+    line-height: 64px;
+    text-align: center;
+
+    p {
+      line-height: 32px;
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 20px;
+    }
+  }
+  img {
+    margin-top: 50px;
+  }
+}
+
+.sec3 {
+  background-color: $bg-primary-color;
+  .card {
+    .col-6 {
+      border: 1px solid $bg-color-2;
+      margin-top: 50px;
+
+      .image {
+        display: flex;
+        position: relative;
+        .icon {
+          position: relative;
+          i {
+            font-size: 40px;
+            position: absolute;
+            top: calc(50% - 20px);
+            left: calc(50% - 20px);
+            color: white;
+            z-index: 1;
+          }
+          img {
+            position: relative;
+          }
+        }
+
+        .text1 {
+          margin-left: 20px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+.sec4 {
+  background-color: $bg-primary-color;
+  .card3 {
+    justify-content: center;
+    .text {
+      text-align: center;
+      margin-top: 50px;
+      line-height: 50px;
+      h5 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 26px;
+        opacity: 0.6;
+      }
+    }
+    .video-content {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .parag2 {
+      text-align: center;
+      margin-top: 50px;
+      line-height: 40px;
+      p {
+        font-size: 20px;
+        opacity: 0.6;
+      }
+    }
+  }
+}
+.sec5 {
+  background-color: $bg-primary-color;
+  .card4 {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    .text4 {
+      text-align: center;
+      line-height: 50px;
+      h3 {
+        font-size: 60px;
+      }
+      p {
+        line-height: 50px;
+        font-size: 20px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+.sec6{
+    background-color: $bg-primary-color;
+    .image-prtn{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+    }
+}
+.sec7{
+    background-color: rgb(249, 229, 218);
+    .cards{
+        display: flex;
+        padding-top: 30px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 8px;
+       
+        .explain{
+            line-height: 40px;
+            position: relative;
+            z-index: 1;
+            .star1{
+                position: absolute;
+                top: -50%;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 2;
+                img{
+                    width: 80px;
+                    height: auto;
+                }
+                
+            }
+            h4{
+                font-family:fantasy;
+            }
+            
+            button{
+                @extend %secondary-btn;
+                border: none;
+                transition: 2s;
+                &:hover{
+                    border: 1px solid $bg-color-2;
+                    color: $bg-color-2;
+                }
+                
+            }
+            
+        }
+        .text{
+            p{
+                line-height: 32px;
+            }
+        }
+       
+        .photo{
+            position: relative;
+            
+            .img1{
+                position: relative;
+            }
+            .img2{
+                position: absolute;
+                top: 0;
+               left: 0;
+                z-index: 1;
+                width: 100%;
+                height: 190px;
+            }
+        }
+    }
+
+}
+footer{
+    .foot{
+        background-color: $bg-secondary-color;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+        .personal{
+            h4{
+                color: $bg-color-1;
+            }
+        }
+        .menu1{
+
+            ul{
+               
+                line-height: 20px;
+                li{
+                    color: $bg-color-1;
                 }
             }
         }
-    }
-  }
-  .sec2{
-    background-color: $bg-primary-color;
-    .text-content{
-       line-height: 64px;
-       text-align: center;
-       
-       p{
-        line-height: 32px;
-        font-size: 20px;
-       }
-       h5{
-        font-size: 20px;
-       }
-    }
-    img{
-        margin-top: 50px;
-    }
-  }
-  
-.sec3{
-    background-color: $bg-primary-color;
-   .card{
-   
-   
-    .col-6{
-        border: 1px solid $bg-color-2;
-        margin-top: 50px;
-    
-        .image{
-            display: flex;
-            position: relative;
-            .icon{
-                position: relative;   
-                   i{
-                font-size: 40px;
-                position: absolute;
-                top: calc(50% - 20px);
-                left: calc(50% - 20px);
-                color: white;
-                z-index: 1;
-            }
-            img{
-                position: relative;
-            }
-            }
-      
-            .text1{
-                margin-left: 20px;
-                margin-top: 20px;
-            }
-        }
-    }
-   }
-}
-
-.sec4{
-    background-color: $bg-primary-color;
-    .card3{
-        justify-content: center;
-        .text{
-            text-align: center;
-            margin-top: 50px;
-            line-height: 50px;
-            h5{
-                font-size: 30px;
-            }
-            p{
-                font-size: 26px;
-                opacity: 0.6;
-            }
-    
-        }
-        .video-content{
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
-        }
-        .parag2{
-            text-align: center;
-            margin-top: 50px;
-            line-height: 40px;
-            p{
-                font-size: 20px;
-                opacity: 0.6;
+        .service1{
+            ul{
                 
+                line-height: 20px;
+                li{
+                    color: $bg-color-1;
+                }
             }
+            
         }
+        .icons{
+            i{
+             font-size: 25px;
+             
+            border-radius: 50%;
+            }
+         }
     }
-
-
-}
-.sec5{
-    background-color: $bg-primary-color;
-    .card4{
-        display: flex;
-        margin-top: 60px;
-        justify-content: center;
-        .text4{
-
-           text-align: center;
-            line-height: 50px;
-            h3{
-                font-size: 60px;
-            }
-            p{
-                line-height: 50px;
-                font-size: 20px;
-            }
-            h5{
-                font-size: 20px;
-            }
-        }
-    }
-
 }

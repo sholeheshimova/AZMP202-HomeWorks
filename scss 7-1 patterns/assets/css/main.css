@@ -174,13 +174,13 @@ main .sec3 button:hover, #banner .banner .text-content .btns .contact-us button:
   transition: 0.6s;
 }
 
-main .sec3 .card2 .explain-content button, #banner .banner .text-content .btns .how-we-work button {
+.sec7 .cards .explain button, main .sec3 .card2 .explain-content button, #banner .banner .text-content .btns .how-we-work button {
   background-color: rgb(239, 109, 88);
   color: white;
   width: 154px;
   height: 48px;
 }
-main .sec3 .card2 .explain-content button:hover, #banner .banner .text-content .btns .how-we-work button:hover {
+.sec7 .cards .explain button:hover, main .sec3 .card2 .explain-content button:hover, #banner .banner .text-content .btns .how-we-work button:hover {
   background-color: transparent;
   color: white;
   transition: 0.6s;
@@ -681,4 +681,95 @@ main .sec3 .card2 .img-content2 .img2 {
 }
 .sec5 .card4 .text4 h5 {
   font-size: 20px;
+}
+
+.sec6 {
+  background-color: rgb(253, 240, 233);
+}
+.sec6 .image-prtn {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.sec7 {
+  background-color: rgb(249, 229, 218);
+}
+.sec7 .cards {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+}
+.sec7 .cards .explain {
+  line-height: 40px;
+  position: relative;
+  z-index: 1;
+}
+.sec7 .cards .explain .star1 {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.sec7 .cards .explain .star1 img {
+  width: 80px;
+  height: auto;
+}
+.sec7 .cards .explain h4 {
+  font-family: fantasy;
+}
+.sec7 .cards .explain button {
+  border: none;
+  transition: 2s;
+}
+.sec7 .cards .explain button:hover {
+  border: 1px solid rgb(239, 109, 88);
+  color: rgb(239, 109, 88);
+}
+.sec7 .cards .text p {
+  line-height: 32px;
+}
+.sec7 .cards .photo {
+  position: relative;
+}
+.sec7 .cards .photo .img1 {
+  position: relative;
+}
+.sec7 .cards .photo .img2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 190px;
+}
+
+footer .foot {
+  background-color: rgb(40, 41, 62);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+footer .foot .personal h4 {
+  color: white;
+}
+footer .foot .menu1 ul {
+  line-height: 20px;
+}
+footer .foot .menu1 ul li {
+  color: white;
+}
+footer .foot .service1 ul {
+  line-height: 20px;
+}
+footer .foot .service1 ul li {
+  color: white;
+}
+footer .foot .icons i {
+  font-size: 25px;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
