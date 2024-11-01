@@ -172,3 +172,222 @@
 //   }
 
 // }
+
+
+
+
+
+// Daxil olunan ədədin array-də olub olmadığını təyin edən proqram tərtib edin.
+
+// let array = [12,4,9,22,41,3,7,19,33]
+
+// let daxilolaneded = 4;
+
+// let yoxlanan;
+
+// for (let i = 0; i < array.length; i++) {
+//     if ( daxilolaneded === array[i]) {
+//         yoxlanan = true;
+//         break;
+//     }
+    
+// }
+// if (yoxlanan) {
+//     console.log('${daxilolaneded} arrayde movcuddur');
+    
+// }else{
+//     console.log('${daxilolaneded} arrayde movcud deyil');
+    
+// }
+
+
+
+
+// const students = [
+//     { name: "Ali", scores: [90, 85, 92] },
+//     { name: "Mammal", scores: [75, 80, 85] },
+//     { name: "Camil", scores: [90, 95, 85] },
+//     { name: "Davud", scores: [100, 100, 100] }
+//   ]; tələbələr array-ində tələbələrin ortalaması ən yüksək olanı, ortalaması 90-dan yuxarı olanları tapan proqram yazın
+
+
+
+// const students = [
+//     { name: "Ali", scores: [90, 85, 92] },
+//     { name: "Mammal", scores: [75, 80, 85] },
+//     { name: "Camil", scores: [90, 95, 85] },
+//     { name: "Davud", scores: [100, 100, 100] }
+// ]
+
+// for (let i = 0; i < students.length; i++) {
+//    if (students[i].scores / students[i].length >= 90) {
+//     console.log(students[i].name);
+    
+//    }
+    
+// }
+
+
+
+
+// array daxilindəki ən uzun sözü tapan alqoritm yazın
+
+// const fruits = ["alma", "banan", "qarpız", " portağal  ", "ananas", "nar"];
+
+// let enuzunSoz = '';
+
+// for (let i = 0; i < fruits.length; i++) {
+//     if (fruits[i].length > enuzunSoz.length) {
+//         enuzunSoz = fruits[i]
+//     }
+    
+// }
+
+// console.log("en uzun soz:" + enuzunSoz);
+
+
+
+
+// # product arrayindəki producların qiymətləri cəmini və ortalamasını tapın
+
+
+// const products = [
+//     {
+//       id: 1,
+//       title: "Smartphone",
+//       description: "A high-end smartphone with the latest features.",
+//       price: 799.99,
+//     },
+//     {
+//       id: 2,
+//       title: "Laptop",
+//       description: "Powerful laptop with a large screen and fast processor.",
+//       price: 1299.99,
+//     },
+//     {
+//       id: 3,
+//       title: "Coffee Maker",
+//       description: "An automatic coffee maker with a built-in grinder.",
+//       price: 99.99,
+//     },
+//     {
+//       id: 4,
+//       title: "Headphones",
+//       description: "Wireless over-ear headphones with noise-cancellation.",
+//       price: 199.99,
+//     },
+//     {
+//       id: 5,
+//       title: "Smart TV",
+//       description: "55-inch 4K Smart TV with streaming apps built-in.",
+//       price: 699.99,
+//     },
+//   ];
+  
+
+//   let qiymetlerinCemi = 0;
+//   let meshulunSayi = products.length;
+
+//   for (let i = 0; i < products.length; i++) {
+//     qiymetlerinCemi += products[i].price;
+//   }
+
+//   let ortalamaQiymet = qiymetlerinCemi / meshulunSayi;
+
+//   console.log("qiymetlerin cemi:" +qiymetlerinCemi);
+//   console.log("Qiymetlerin ortalamasi:" + ortalamaQiymet);
+
+
+
+
+//   sinifdekilerin ardi
+
+// 3 eded verilib . bu ededlerin birlesmesinden yaranan en boyuk ve en kicik ededi tertib edin meselen a=4 b=5 c=6 big number=654 litlle number = 456
+
+// let a = 5;
+// let b = 4;
+// let c = 6;
+
+// let minEded;
+// let maxEded;
+
+// if (a > b && a >c) {
+//     if (b >c) {
+//         maxEded = a*100 + b*10 + c;
+//         minEded = c*100 + b*10 + a;
+//     }else{
+//         maxEded = a*100 + c*10 + b;
+//         minEded = b*100 + c*10 + a;
+//     }
+// }else if(b>a && b>c){
+//     if (a>c) {
+//         maxEded = b*100 +a*10 +c;
+//         minEded = c*100 +a*10+ b
+//     }else{
+//         maxEded = b*100 + c*10 +a;
+//         minEded = a*100 + c*10 + b;
+//     }
+// }else if(c>a && c>b){
+//     if(a>b){
+//         maxEded = c*100 + a*10 +b;
+//         minEded = b*100 + a*10 +c;
+//     }else{
+//         maxEded = c*100 + b*10 +a;
+//         minEded = a*100 + b*10 +c;
+//     }
+// }
+// console.log("maximum eded:" +maxEded);
+// console.log("minimum eded:" +minEded);
+
+
+
+
+
+// Verilmiş arraydə təkrərlanan elementi tapin.
+
+// let array = [12,23,43,54,65,67,89,90,100,23];
+// let check;
+
+// for (let i = 0; i < array.length; i++) {
+//    check = array[i];
+//    for (let j = i; j < array.length; j++) {
+//    if (array[j] === check) {
+//     console.log(check);
+    
+//    }
+    
+//    }
+    
+// }
+
+
+
+// İki Array-də Eyni Elementlərin Tapılması
+
+// let array1 = [1, 3, 5, 7];
+// let array2 = [2, 3, 6, 7, 8];
+
+// for (let i = 0; i < array1.length; i++) {
+//     for (let j = 0; j < array2.length; j++) {
+        
+//         if (array1[i] == array2[j]) {
+//             console.log(array1[i]);
+            
+//         }
+//     }
+    
+// }
+
+
+// Verilmis arrayi tersine cevirib yazin
+
+// let array1 = [12,45,3,18,9];
+// let reserved=[];
+
+// for (let index = array1.length-1; index >= 0; index--) {
+//    reserved.push(array1[index])
+    
+// }
+//   console.log(reserved);
+  
+  
