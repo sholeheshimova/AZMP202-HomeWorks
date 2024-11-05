@@ -186,11 +186,17 @@
 
 // #Filter out companies which have more than one 'o' without the filter method
 
+// const itCompanies = ["Facebook", "Google", "Microsoft"," Apple", "IBM", "Oracle", "Amazon"];
+// for (let i = 0; i< itCompanies.length; i++){
+//         if (
+//                 itCompanies[i].toLowerCase().includes("o") && itCompanies[i].toLowerCase().indexOf("o") !== itCompanies[i].toLowerCase().lastIndexOf("o")
+//                 )
+//         {
+//                 console.log(itCompanies[i]));
 
+//         }
 
-
-
-
+// }
 
 // 5) 
 
