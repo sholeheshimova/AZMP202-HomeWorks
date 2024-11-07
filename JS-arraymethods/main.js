@@ -162,7 +162,14 @@ let arr = [
 
 // 10) terkibinde 2 'l' (el) herfi olan obyekt(ler)i tapin.
 
+// let result = arr.filter((elem) => elem.name.split("l").length = 3);
+// console.log(result);
+
+
 // / 11) terkibinde ən az 2 't' herfi olan obyekt(ler)i tapın.
+
+// let result = arr.filter((elem) => elem.name.split("t").length = 2);
+// console.log(result);
 
 
 // 12) key'leri 10'dan boyuk ve "name"-i 'l' herfi ile bashlayan obyektleri tapaq
