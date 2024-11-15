@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./grid.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="basliq-1">ADD FORM</h1>
+        <form action="" class="form">
+         <div class="title-1">
+            <label for="title">Title</label>
+            <input type="text"  class="input-1" placeholder="title" style="width: 100%; height: 30px;">
+         </div>
+         <div class="title-1">
+            <label for="price">Price</label>
+            <input type="number"  class="input-1" placeholder="price" style="width: 100%; height: 30px;">
+         </div>
+         <div class="title-1">
+            <label for="description">Description</label>
+            <input type="text"  class="input-1" placeholder="description" style="width: 100%; height: 30px;">
+         </div>
+         <div class="title-1">
+            <label for="image">Image</label>
+            <input type="text"  class="input-1" placeholder="image" style="width: 100%; height: 30px;">
+         </div>
+         <button type="submit" class="btn">Add </button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h1 class="basliq-2">Products</h1>
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="	https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+                    <div class="card-content">
+                        <div class="card-title">Fjallraven-Fo..</div>
+                        <div class="card-price">109.95$</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, similique?</div>
+                        <a href="#" class="btn-detail">Details</a>
+                        <a href="#" class="btn-delete">Delete</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt="">
+                    <div class="card-content">
+                        <div class="card-title">Mens-Casual..</div>
+                        <div class="card-price">22.4$</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, similique?</div>
+                        <a href="#" class="btn-detail">Details</a>
+                        <a href="#" class="btn-delete">Delete</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="">
+                    <div class="card-content">
+                        <div class="card-title">Mens-Cotton..</div>
+                        <div class="card-price">55.99$</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, similique?</div>
+                        <a href="#" class="btn-detail">Details</a>
+                        <a href="#" class="btn-delete">Delete</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="	https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="">
+                    <div class="card-content">
+                        <div class="card-title">Mens-Casual-Sli..</div>
+                        <div class="card-price">15.99$</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, similique?</div>
+                        <a href="#" class="btn-detail">Details</a>
+                        <a href="#" class="btn-delete">Delete</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="deleteModal">
+        <div class="modal-content">
+            <h3>Are you sure you want to delete this item?</h3>
+            <button class="btn-ok">OK</button>
+            <button class="btn-cancel">Cancel</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
