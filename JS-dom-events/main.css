@@ -26,6 +26,7 @@ img{
     border: none;
     color: white;
     padding: 8px;
+    cursor: pointer;
 
 }
 .btn button{
@@ -138,4 +139,26 @@ img{
 }
 .btn-delete{
     background-color: red;
+}
+
+
+.blurred {
+    filter: blur(5px);
+    opacity: 0.5;
+    transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+
+@media (max-width: 767px){
+    .col-3 {
+        width: 48%;
+        max-width: 48%;
+    }
+}
+
+@media (max-width: 470px){
+    .col-3{
+        width: 100%;
+        max-width: 100%;
+    }
 }
