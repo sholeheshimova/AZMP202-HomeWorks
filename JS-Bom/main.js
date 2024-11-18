@@ -1,6 +1,6 @@
 let tasks = [];
 
-// Yeni tapşırıq əlavə etmək funksiyası
+// Yeni tapsiriq elave etmek ucun
 function addTask() {
     const taskInput = document.getElementById("taskInput");
     const taskText = taskInput.value.trim();
@@ -12,9 +12,9 @@ function addTask() {
     }
 }
 
-// Tapşırıqları göstərmək funksiyası
+// Tapsiriqlari göstermək ucun
 function displayTasks(filter = 'all') {
-    const taskList = document.querySelector(".task-list"); // `.task-list` class-ına görə seçirik
+    const taskList = document.querySelector(".task-list"); 
     taskList.innerHTML = '';
 
     tasks.forEach((task, index) => {
@@ -50,24 +50,24 @@ function displayTasks(filter = 'all') {
     });
 }
 
-// Tapşırığın tamamlanma vəziyyətini dəyişmək funksiyası
+// Tapsirigin tamamlanma veziyyetini deyismək ucun
 function toggleComplete(index) {
     tasks[index].completed = !tasks[index].completed;
     displayTasks();
 }
 
-// Tapşırıqları filtrləmək funksiyası
+// Tapsiriqlari filtrlemek ucun
 function filterTasks(type) {
     displayTasks(type);
 }
 
-// Bütün tapşırıqları təmizləmək funksiyası
+// Bütün tapsiriqlari temizlemek ucun
 function clearTasks() {
     tasks = [];
     displayTasks();
 }
 
-// Tapşırığı silmə funksiyası (SweetAlert ilə)
+// Tapsirigi silmek ucun  sweetalert istifade edirik
 function confirmDeleteTask(index) {
     Swal.fire({
         title: "Are you sure?",
@@ -79,11 +79,11 @@ function confirmDeleteTask(index) {
         confirmButtonText: "Yes, delete it!"
     }).then((result) => {
         if (result.isConfirmed) {
-            // Tapşırığı silir
+            // Tapsirigi silir
             tasks.splice(index, 1);
             displayTasks();
             
-            // Silindiyi mesajı göstərir
+            // Silindiyi mesajı gosderir
             Swal.fire({
                 title: "Deleted!",
                 text: "Your task has been deleted.",
@@ -93,5 +93,5 @@ function confirmDeleteTask(index) {
     });
 }
 
-// Event Listener: `Add` düyməsinə kliklə tapşırıq əlavə edir
+
 document.querySelector(".addBtn").addEventListener("click", addTask);
