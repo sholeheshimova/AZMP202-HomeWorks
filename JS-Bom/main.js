@@ -1,6 +1,7 @@
-let tasks = [];
+let tasks =JSON.parse(localStorage.getItem("tasks")) || [];
+displayTasks();
 
-// Yeni tapsiriq elave etmek ucun
+// Yeni tapsiriq eve etmek ucun
 function addTask() {
     const taskInput = document.getElementById("taskInput");
     const taskText = taskInput.value.trim();
@@ -8,6 +9,7 @@ function addTask() {
     if (taskText) {
         tasks.push({ text: taskText, completed: false });
         taskInput.value = '';
+        saveTasksToLocaleStorage();
         displayTasks();
     }
 }
@@ -50,9 +52,14 @@ function displayTasks(filter = 'all') {
     });
 }
 
+function saveTasksToLocaleStorage(){
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+}
+
 // Tapsirigin tamamlanma veziyyetini deyismək ucun
 function toggleComplete(index) {
     tasks[index].completed = !tasks[index].completed;
+    saveTasksToLocaleStorage();
     displayTasks();
 }
 
@@ -64,6 +71,7 @@ function filterTasks(type) {
 // Bütün tapsiriqlari temizlemek ucun
 function clearTasks() {
     tasks = [];
+    saveTasksToLocaleStorage();
     displayTasks();
 }
 
@@ -81,6 +89,7 @@ function confirmDeleteTask(index) {
         if (result.isConfirmed) {
             // Tapsirigi silir
             tasks.splice(index, 1);
+            saveTasksToLocaleStorage();
             displayTasks();
             
             // Silindiyi mesajı gosderir
