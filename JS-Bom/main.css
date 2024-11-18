@@ -1,0 +1,77 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 1000px;
+    padding: 20px;
+    border: none;
+}
+.content{
+    display: flex;
+}
+#taskInput{
+    width: 90%;
+    padding: 10px;
+    margin-right: 10px;
+}
+.addBtn{
+    width: 100px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.buttons button{
+    padding: 10px;
+    flex: 1;
+    margin: 5px 2px;
+   
+    border: none;
+    cursor: pointer;
+}
+
+.allBtn { 
+background-color: blue; 
+color: white;
+}
+.completedBtn{ 
+background-color:green; 
+color: white;
+}
+.pendingBtn{ 
+background-color: yellow;
+color: black; 
+}
+.clearBtn{
+ background-color: red;
+ color: white;
+ }
+
+
+ .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.task-item.completed label {
+    text-decoration: line-through;
+    color: grey;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS BOM</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="content">
+        <input type="text" id="taskInput" />
+        <button class="addBtn">Add</button>
+      </div>
+      <div class="buttons">
+        <button class="allBtn" onclick="filterTasks('all')">All Todos</button>
+        <button class="completedBtn" onclick="filterTasks('completed')">
+          All Completed Todos
+        </button>
+        <button class="pendingBtn" onclick="filterTasks('pending')">
+          All Pending Todos
+        </button>
+        <button class="clearBtn" onclick="clearTasks()">Clear All</button>
+      </div>
+      <hr />
+      <div class="task-list"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
