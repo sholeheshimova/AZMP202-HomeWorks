@@ -69,6 +69,30 @@
     cursor: pointer;
 }
 
+.btn-increment {
+  width: 30px;
+  border: 1px solid green;
+  background-color: transparent;
+  
+  color: green;
+}
+.btn-decrement {
+width: 30px;
+border: 1px solid red;
+background-color: transparent;
+color: red;
+
+}
+
+.btn-remove{
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  height: 30px;
+}
+
+
+
 .btn:hover {
     background-color: darkblue;
 }
