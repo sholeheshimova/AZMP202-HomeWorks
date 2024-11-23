@@ -6,3 +6,27 @@
 .col-12{
     border: 1px solid black;
 } */
+.card-id{
+    color: maroon;
+    font-size: 20px;
+}
+.card-name{
+    color: red;
+   font-size: 18px;
+}
+.card-contact{
+    color: green;
+    font-size: 18px;
+}
+.card-title{
+    color: blueviolet;
+    font-size: 18px;
+}
+.address-street{
+    color: blue;
+    font-size: 18px;
+}
+.address-phone{
+    color:darkslategray;
+    font-size: 18px;
+}
