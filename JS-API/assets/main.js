@@ -28,13 +28,24 @@ function supCards(array) {
                 <div class="card-title">Contact Title: ${item.contactTitle}</div>
                 <div class="address-street">Street :${item.address?.street}</div>
                 <div class="address-phone">Phone: ${item.address?.phone}</div>
+                <button class="btn btn-danger mt-3 delete-btn">Delete</button>
                 </div>
                 </div>
 
         `;
         rowContainer.insertAdjacentHTML("beforeend", cardHTML);
     });
+
+
+const deleteButtons = document.querySelectorAll(".delete-btn");
+deleteButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+    const card = event.target.closest(".col-12"); // Düymənin aid olduğu kartı tapırıq
+    card.remove(); // Kartı DOM-dan silirik
+    console.log("Deleted card");
+    });
+  });
     
 }
 
-getData("suppliers");
+getData("users");

@@ -1,0 +1,155 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "companyName": "Tech Solutions LLC",
+        "contactName": "Ali Hasanov",
+        "contactTitle": "Manager",
+        "address": {
+          "street": "123 Elm Street",
+          "phone": "+994555555551"
+        }
+      },
+      {
+        "id": 2,
+        "companyName": "Global Trade Co.",
+        "contactName": "Leyla Mehdiyeva",
+        "contactTitle": "Director",
+        "address": {
+          "street": "45 Oak Avenue",
+          "phone": "+994555555552"
+        }
+      },
+      {
+        "id": 3,
+        "companyName": "Azerbaijan Logistics",
+        "contactName": "Elnur Huseynov",
+        "contactTitle": "Logistics Officer",
+        "address": {
+          "street": "89 Maple Road",
+          "phone": "+994555555553"
+        }
+      },
+      {
+        "id": 4,
+        "companyName": "Creative Media",
+        "contactName": "Nigar Aliyeva",
+        "contactTitle": "Designer",
+        "address": {
+          "street": "101 Cedar Lane",
+          "phone": "+994555555554"
+        }
+      },
+      {
+        "id": 5,
+        "companyName": "IT Vision",
+        "contactName": "Rashad Karimov",
+        "contactTitle": "Developer",
+        "address": {
+          "street": "56 Pine Street",
+          "phone": "+994555555555"
+        }
+      },
+      {
+        "id": 6,
+        "companyName": "Green Energy Ltd.",
+        "contactName": "Samira Guliyeva",
+        "contactTitle": "Consultant",
+        "address": {
+          "street": "78 Birch Avenue",
+          "phone": "+994555555556"
+        }
+      },
+      {
+        "id": 7,
+        "companyName": "Skyline Architects",
+        "contactName": "Murad Abbasov",
+        "contactTitle": "Architect",
+        "address": {
+          "street": "33 Willow Boulevard",
+          "phone": "+994555555557"
+        }
+      },
+      {
+        "id": 8,
+        "companyName": "Bright Future Education",
+        "contactName": "Sevda Ismayilova",
+        "contactTitle": "Principal",
+        "address": {
+          "street": "12 Magnolia Court",
+          "phone": "+994555555558"
+        }
+      },
+      {
+        "id": 9,
+        "companyName": "Taste Delight",
+        "contactName": "Vusal Taghiyev",
+        "contactTitle": "Chef",
+        "address": {
+          "street": "67 Cherry Drive",
+          "phone": "+994555555559"
+        }
+      },
+      {
+        "id": 10,
+        "companyName": "Travel Now Agency",
+        "contactName": "Aysel Mammadova",
+        "contactTitle": "Travel Agent",
+        "address": {
+          "street": "23 Spruce Circle",
+          "phone": "+994555555560"
+        }
+      },
+      {
+        "id": 11,
+        "companyName": "Secure Tech",
+        "contactName": "Elchin Safarov",
+        "contactTitle": "Security Specialist",
+        "address": {
+          "street": "92 Ash Drive",
+          "phone": "+994555555561"
+        }
+      },
+      {
+        "id": 12,
+        "companyName": "Healthy Living Center",
+        "contactName": "Gulnar Valiyeva",
+        "contactTitle": "Nutritionist",
+        "address": {
+          "street": "50 Palm Street",
+          "phone": "+994555555562"
+        }
+      },
+      {
+        "id": 13,
+        "companyName": "Digital Art Studio",
+        "contactName": "Javid Ahmadov",
+        "contactTitle": "Animator",
+        "address": {
+          "street": "39 Poplar Avenue",
+          "phone": "+994555555563"
+        }
+      },
+      {
+        "id": 14,
+        "companyName": "Elegant Events",
+        "contactName": "Zeynab Rahimova",
+        "contactTitle": "Event Manager",
+        "address": {
+          "street": "74 Redwood Lane",
+          "phone": "+994555555564"
+        }
+      },
+      {
+        "id": 15,
+        "companyName": "Peak Performance",
+        "contactName": "Kamran Najafov",
+        "contactTitle": "Coach",
+        "address": {
+          "street": "88 Cypress Way",
+          "phone": "+994555555565"
+        }
+      }
+    ]
+  }
+  

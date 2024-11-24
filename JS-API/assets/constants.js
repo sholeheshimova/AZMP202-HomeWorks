@@ -1,1 +1,1 @@
-export const BASE_URL = "https://northwind.vercel.app/api/suppliers/suppliers"
+export const BASE_URL = "http://localhost:3000"
