@@ -1,0 +1,238 @@
+header{
+    background-color: rgb(10, 114, 109);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* opacity: ; */
+    /* position: fixed; */
+    z-index: 1;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* text-align: center; */
+
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+header nav ul li a{
+    color: white;
+}
+.sec1{
+    background: url(/Floram.task/assets/image/mainflower1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    color: rgb(10, 114, 109) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+}
+
+
+.mission {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .mission .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+ 
+  .mission .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px; 
+  }
+  .mission .col-6{
+    display: flex;
+    background-color: rgb(10, 114, 109);
+
+  }
+  
+  
+  .text-col {
+    flex: 1; 
+    text-align: start;
+    
+  }
+  
+  .mission-content {
+    text-align: left; 
+    margin-top: 150px;
+  }
+  
+  .mission-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .mission-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .mission-content button {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(10, 114, 109) ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mission-content button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  
+  .img-col {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .img img {
+    width: 100%;
+    max-width: 400px; 
+    height: auto; 
+  }
+
+  .pricing{
+    background-color: rgb(254, 245, 234);
+    height: 300px;
+  }
+  .pricing p, h2{
+    color:  rgb(10, 114, 109);
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .pricing .row{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5px; */
+    /* gap: 20px; */
+
+  }
+  .pricing .col-4{
+    border: 1px solid rgb(10, 114, 109) ;
+    height: 200px;
+  }
+  .pricing .col-4 span{
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgb(10, 114, 109) ;
+  }
+  .pricing .col-4 h4{
+    margin-top: 10px;
+    color:  rgb(10, 114, 109) ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .pricing .col-4 p{
+    margin-top: 10px;
+    color:  rgb(10, 114, 109) ;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .pricing .col-4 button{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(10, 114, 109);
+    background-color: rgb(39, 188, 181);
+    color: white;
+    cursor: pointer;
+  }
+.team{
+    margin-top: 100px;
+}
+  .team p, h2{
+    text-align: center;
+    color: rgb(10, 114, 109);
+  }
+  .team .text-content{
+    color:  rgb(10, 114, 109);
+    text-align: center;
+    align-items: center;
+  }
+
+  .foot{
+    margin-top: 100px;
+    background-color: rgb(10, 114, 109);
+  }
+  .foot .content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  .foot .row{
+    display: flex;
+  }
+  .foot .row ul li a{
+  color: white;
+  }
+  .foot .col-4 h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+  }
+  .foot .row ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .foot .content p{
+    color: white;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .foot h1{
+    color: white;
+  }
+
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+ 

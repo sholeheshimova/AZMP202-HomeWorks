@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "title": "Card 1",
+      "image": "./assets/image/flower11.jpg",
+      "description": "Details about the flower..."
+    },
+    {
+      "id": "2",
+      "title": "Card 2",
+      "image": "./assets/image/flower21.jpg",
+      "description": "Details about the flower..."
+    },
+    {
+      "id": "3",
+      "title": "Card 3",
+      "image": "./assets/image/flower31.jpg",
+      "description": "Details about the flower..."
+    },
+    {
+      "id": "4",
+      "title": "Card 4",
+      "image": "./assets/image/flower11.jpg",
+      "description": "Details about the flower..."
+    },
+    {
+      "id": "5",
+      "title": "Card 5",
+      "image": "./assets/image/flower21.jpg",
+      "description": "Details about the flower..."
+    },
+    {
+      "id": "6",
+      "title": "Card 6",
+      "image": "./assets/image/flower31.jpg",
+      "description": "Details about the flower..."
+    }
+  ]
+}
