@@ -150,6 +150,24 @@
 // console.log("Median:" , findMedian([1,2,3,4,5]));
 
 
+
+//8.Write a method that returns a duplicate-free array.
+
+// function dublicate(arr) {
+//     const array = [];
+//     for (let i = 0; i < arr.length; i++) {
+//       if (!array.includes(arr[i])) {
+//         array.push(arr[i]);
+//       }
+//     }
+//     return array;
+//   }
+  
+//   console.log(dublicate([1, 2, 1, 2, 3])); 
+//   console.log(dublicate(['a', 2, 'd', 2, 'a', 14, 14, 's', false]));
+
+
+
 // 9. 
 
 // Bir string ve bir char qebul eden bir function yazın.Əgər daxil olunmuş char string-də varsa char-ın yerləşdiyi 
@@ -176,6 +194,20 @@
 
 // console.log(charIndexSum("salam" , 'a'));
 // console.log(charIndexSum("salam" , 'z'));
+
+
+//10 const countries = ["Finland", "Denmark", "Sweden", "Norway", "Iceland"]; // array of strings, countries
+
+// countries arrayindəki ölkələrin ilk 3 hərfini (hər bir hərf böyük olmalıdır) yeni arrayda yığın
+
+// output: ["FIN", "DEN", "SWE", "NOR", "ICE"];
+
+
+// const countries = ["Finland", "Denmark", "Sweden", "Norway", "Iceland"];
+
+// const letters = countries.map(country => country.slice(0, 3).toUpperCase());
+
+// console.log(letters); 
 
 
 
