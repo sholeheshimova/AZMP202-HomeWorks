@@ -165,6 +165,7 @@ header nav ul li a{
   }
 .team{
     margin-top: 100px;
+    overflow-x: hidden;
 }
   .team p, h2{
     text-align: center;
@@ -192,7 +193,7 @@ header nav ul li a{
   .foot .row ul li a{
   color: white;
   }
-  .foot .col-4 h4{
+  .foot .col-3 h4{
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -235,4 +236,7 @@ header nav ul li a{
     border-radius: 8px;
   }
   
- 
+ .flower-image{
+  max-width: 60%;
+ }
+  

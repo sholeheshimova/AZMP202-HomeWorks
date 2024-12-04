@@ -13,7 +13,7 @@ const loadCards = async () => {
       const cardElement = document.createElement("div");
       cardElement.className = "card";
       cardElement.innerHTML = `
-        <img src="${card.image}" alt="${card.title}">
+        <img src="${card.image}" alt="${card.title}" class = "flower-image">
         <h3>${card.title}</h3>
         <p>${card.description}</p>
         <button onclick="viewCard(${card.id})" class="details-btn">Details</button>
