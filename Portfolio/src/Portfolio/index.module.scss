@@ -1,0 +1,671 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+ header{
+    margin: 0;
+    padding: 0;
+ }
+
+.head {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3b7068;
+  position: fixed;
+  z-index: 222;
+  width: 100%;
+  h4 {
+    color: #f6e8c3;
+    transition: transform 1.8s ease, box-shadow 1.8s ease;
+
+    &:hover{
+        transform: scale(1.5); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style-type: none;
+      align-items: center;
+      transition: transform 1.8s ease, box-shadow 1.8s ease;
+
+      &:hover{
+        transform: scale(1.5);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      }
+      a {
+        text-decoration: none;
+        color: #f6e8c3;
+      }
+    }
+  }
+}
+.sec1 {
+    // margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6e8c3;
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    h1,
+    p {
+      color: #3b7068;
+    }
+    p {
+      font-size: 20px;
+    }
+    button {
+      background-color: #3b7068;
+      color: #f6e8c3;
+      width: 100px;
+      height: 30px;
+      border: 1px solid none;
+      border-radius: 15px;
+    }
+  }
+  .image {
+    padding: 50px;
+    margin-top: 40px;
+    img {
+      width: 400px;
+      border: none;
+      border-radius: 50%;
+    }
+  }
+}
+
+.sec2 {
+  background-color: #5b8e7d;
+  display: flex;
+  gap: 120px;
+//   justify-content: space-between;
+  .text {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding: 30px;
+    h2 {
+      color: #f6e8c3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    p {
+      color: #f6e8c3;
+      font-size: 20px;
+    }
+    img {
+      width: 300px;
+      border: none;
+      border-radius: 30%;
+    }
+  }
+  .information {
+    li{
+        font-size: 20px;
+    }
+    .firstlist{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+        li{
+            font-size: 20px;
+        }
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      color: #f6e8c3;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    li {
+        text-align: left; 
+        font-size: 16px; 
+        color: #f6e8c3; 
+      }
+
+    a {
+      margin: 10px 0; 
+      text-decoration: none; 
+      color: #f6e8c3;
+      font-size: 18px;
+    }
+  }
+}
+
+.sec3{
+    background-color: #f6e8c3;
+    height: 500px;
+    
+    h2{
+        color:#3b7068;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .cards{
+        display: flex;
+        gap: 20px;
+        .card1{
+            background-color: #5b8e7d;
+            border: none;
+            border-radius: 20%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.0); /* Kartı böyüdür */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+            }
+            i{
+                display: flex;
+                justify-content: center ;
+                align-items: center;
+                padding: 1rem;
+                color: burlywood;
+                font-size: 20px;
+                transition: font-size 0.3s ease, color 0.3s ease;
+
+                &:hover{
+                    font-size: 24px; /* İkonun ölçüsünü böyüdür */
+                     color: #f6e8c3; 
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                color: #f6e8c3;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 22px; /* Başlığın ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                color:burlywood;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 18px; /* Mətnin ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+        }
+        .card2{
+            background-color: #5b8e7d;
+            border: none;
+            border-radius: 20%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.0); /* Kartı böyüdür */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+            }
+            i{
+                display: flex;
+                justify-content: center ;
+                align-items: center;
+                padding: 1rem;
+                color: burlywood;
+                font-size: 20px;
+                transition: font-size 0.3s ease, color 0.3s ease;
+
+                &:hover{
+                    font-size: 24px; /* İkonun ölçüsünü böyüdür */
+                     color: #f6e8c3; 
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                color: #f6e8c3;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 22px; /* Başlığın ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                color:burlywood;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 18px; /* Mətnin ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+        }
+        .card3{
+            background-color: #5b8e7d;
+            border: none;
+            border-radius: 20%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.0); /* Kartı böyüdür */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+            }
+            i{
+                display: flex;
+                justify-content: center ;
+                align-items: center;
+                padding: 1rem;
+                color: burlywood;
+                font-size: 20px;
+                transition: font-size 0.3s ease, color 0.3s ease;
+
+                &:hover{
+                    font-size: 24px; /* İkonun ölçüsünü böyüdür */
+                     color: #f6e8c3; 
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                color: #f6e8c3;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 22px; /* Başlığın ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                color:burlywood;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 18px; /* Mətnin ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+        }
+        .card4{
+            background-color: #5b8e7d;
+            border: none;
+            border-radius: 20%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.0); /* Kartı böyüdür */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+            }
+            i{
+                display: flex;
+                justify-content: center ;
+                align-items: center;
+                padding: 1rem;
+                color: burlywood;
+                font-size: 20px;
+                transition: font-size 0.3s ease, color 0.3s ease;
+
+                &:hover{
+                    font-size: 24px; /* İkonun ölçüsünü böyüdür */
+                     color: #f6e8c3; 
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                color: #f6e8c3;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 22px; /* Başlığın ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                color:burlywood;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 18px; /* Mətnin ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+        }
+        .card5{
+            background-color: #5b8e7d;
+            border: none;
+            border-radius: 20%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.0); /* Kartı böyüdür */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+            }
+            i{
+                display: flex;
+                justify-content: center ;
+                align-items: center;
+                padding: 1rem;
+                color: burlywood;
+                font-size: 20px;
+                transition: font-size 0.3s ease, color 0.3s ease;
+
+                &:hover{
+                    font-size: 24px; /* İkonun ölçüsünü böyüdür */
+                     color: #f6e8c3; 
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                color: #f6e8c3;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 22px; /* Başlığın ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                color:burlywood;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 18px; /* Mətnin ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+        }
+        .card6{
+            background-color: #5b8e7d;
+            border: none;
+            border-radius: 20%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.0); /* Kartı böyüdür */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Kölgə effekti */
+            }
+            i{
+                display: flex;
+                justify-content: center ;
+                align-items: center;
+                padding: 1rem;
+                color: burlywood;
+                font-size: 20px;
+                transition: font-size 0.3s ease, color 0.3s ease;
+
+                &:hover{
+                    font-size: 24px; /* İkonun ölçüsünü böyüdür */
+                     color: #f6e8c3; 
+                }
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+                color: #f6e8c3;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 22px; /* Başlığın ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                padding: 1rem;
+                color:burlywood;
+                transition: color 0.3s ease, font-size 0.3s ease;
+
+                &:hover{
+                    font-size: 18px; /* Mətnin ölçüsünü böyüdür */
+                    color: #ffffff; /* Rəng dəyişir */
+                }
+            }
+        }
+    }
+}
+
+
+.sec4{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #5b8e7d;
+    img{
+        width: 400px;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        .card1{
+            width: 300px;
+            border: 1px solid #f6e8c3;
+            height: 120px;
+            background-color: transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 28px;
+                padding: 0.8rem;
+                color: #f6e8c3;
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               margin-bottom: 30px;
+               color: #f6e8c3;
+            }
+        }
+        .card2{
+            width: 300px;
+            border: 1px solid #3b7068;
+            height: 120px;
+            background-color: #f6e8c3;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 28px;
+                padding: 0.8rem;
+                color: #3b7068;
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               margin-bottom: 30px;
+               color: #3b7068;
+            }
+        }
+        .card3{
+            width: 300px;
+            border: 1px solid #3b7068;
+            height: 120px;
+            background-color: #f6e8c3;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 28px;
+                padding: 0.8rem;
+                color: #3b7068;
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               margin-bottom: 30px;
+               color: #3b7068;
+            }
+        }
+        .card4{
+            width: 300px;
+            border: 1px solid #f6e8c3;
+            height: 120px;
+            background-color: transparent;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            i{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 28px;
+                padding: 0.8rem;
+                color: #f6e8c3;
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               margin-bottom: 30px;
+               color: #f6e8c3;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #3b7068; /* Daha tünd rəng */
+    color: #f4f4f4; /* Ağ rəng mətn */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    div{
+        margin: 0 20px;
+    }
+  }
+  
+  footer {
+   h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+   }
+  }
+  
+  footer  {
+    ul{
+        list-style: none;
+    padding: 0;
+    li{
+        margin-bottom: 8px;
+        a{
+            text-decoration: none;
+            color: #c9d1d3; /* Açıq rəng linklər */
+            transition: color 0.3s ease;
+        
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+    }
+  }
+  
+ 
+  
+  
+ 
+  
+  footer {
+   .socialicons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    a{
+        i{
+            color: #f4f4f4;
+
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+   }
+   
+  }
+  
+  footer {
+    .socialicons{
+        a{
+            color: #f4f4f4;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+        }
+    }
+  }
+  
+  
+  
