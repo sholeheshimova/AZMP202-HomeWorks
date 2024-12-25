@@ -16,22 +16,22 @@ const ClientHeader = () => {
                             <NavLink to={"/"}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/client/about"}>About</NavLink>
+                            <NavLink to={"about"}>About</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/client/blog"}>Blog</NavLink>
+                            <NavLink to={"blog"}>Blog</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/client/blogdetail"}>Blog Detail</NavLink>
+                            <NavLink to={"blogdetail"}>Blog Detail</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/client/contact"}>Contact</NavLink>
+                            <NavLink to={"contact"}>Contact</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/client/login"}>Login</NavLink>
+                            <NavLink to={"login"}>Login</NavLink>
                         </li>
                         <li>
-                            <NavLink to={"/client/register"}>Register</NavLink>
+                            <NavLink to={"register"}>Register</NavLink>
                         </li>
                     </ul>
                 </nav>
