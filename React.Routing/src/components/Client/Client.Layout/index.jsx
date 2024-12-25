@@ -7,6 +7,8 @@ const ClientLayout = () => {
     <div>
       <ClientHeader />
       <Outlet />
+
+      
     </div>
   )
 }
