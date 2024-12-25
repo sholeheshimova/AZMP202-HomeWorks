@@ -1,0 +1,22 @@
+header{
+    background-color: cornflowerblue;
+    padding: 2rem 0;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        .clientlogo{
+color: white;
+        }
+        ul{
+            display: flex;
+            gap: 2rem;
+            li{
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+}
