@@ -21,9 +21,9 @@ const ClientHeader = () => {
                         <li>
                             <NavLink to={"blog"}>Blog</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to={"blogdetail"}>Blog Detail</NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink to={"contact"}>Contact</NavLink>
                         </li>
