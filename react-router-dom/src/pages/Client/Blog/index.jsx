@@ -1,18 +1,22 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Button, Card } from 'antd';
 import axios from 'axios'
 import styles from './index.module.scss'
 import { useNavigate } from 'react-router-dom';
+import { FavoritesContext } from '../../../context/FavoritesContext';
+import { FaHeart } from "react-icons/fa";
 
-import { FaHeart } from "react-icons/fa6";
+import { FaRegHeart } from "react-icons/fa";
 
-import { FaRegHeart } from "react-icons/fa6";
+
 
 const Blog = () => {
 
   // const [query, setQuery] = useState('')
   const [cards, setCards] = useState([]);
   const [searchValue, setSearchValue] = useState("");
+
+  const { toggleFavorites , favorites} = useContext(FavoritesContext)
 
   const navigate = useNavigate(null);
   const getCards = async () => {
@@ -55,8 +59,7 @@ const Blog = () => {
             <p style={{ color: "red" }}>Price: {item.price}</p>
             <button onClick={()=>handleDetailClick(item.id)} style={{ cursor: 'pointer' }}>Details</button>
 
-              {/* <FaHeart/>  */}
-              <FaRegHeart />
+              <Button onClick={() => toggleFavorites(p)}>{favorites.find((q) => q.id === p.id) ? <FaHeart />  : <FaRegHeart />}</Button>
           </div>
         ))}
       </div>

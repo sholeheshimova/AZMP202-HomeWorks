@@ -33,6 +33,9 @@ const ClientHeader = () => {
                         <li>
                             <NavLink to={"register"}>Register</NavLink>
                         </li>
+                        <li>
+                            <NavLink to={"favorites"}>Favorites</NavLink>
+                        </li>
                     </ul>
                 </nav>
             </div>

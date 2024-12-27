@@ -17,6 +17,7 @@ import Register from './pages/Client/Register'
 import Dashboard from './pages/Admin/Dashboard'
 import Products from './pages/Admin/Products'
 import Users from './pages/Admin/Users'
+import Favorites from './pages/Client/Favorites'
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
       <Route path='/contact' element={<Contact />}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/register' element={<Register />}/>
+      <Route path="/favorites" element={<Favorites />} />
       <Route />
 
       //adminlayout
