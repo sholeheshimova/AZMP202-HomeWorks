@@ -31,10 +31,11 @@ function App() {
       <Route index element={<Home />} />
       <Route path='/about' element={<About />}/>
       <Route path='/blog' element={<Blog />}/>
-      <Route path='/blogdetail' element={<BlogDetail />}/>
+      <Route path='/blog/:id' element={<BlogDetail />}/>
       <Route path='/contact' element={<Contact />}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/register' element={<Register />}/>
+      <Route />
 
       //adminlayout
       <Route path='/admin' element={<AdminLayout />}/>

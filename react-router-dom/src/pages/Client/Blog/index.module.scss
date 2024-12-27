@@ -1,0 +1,13 @@
+.cardholder{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem ;
+    flex-wrap: wrap;
+    .card{
+        border: 2px solid blue;
+    }
+}
+.search{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
