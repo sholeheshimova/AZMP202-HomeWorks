@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Card, Col, Row } from 'antd';
 import { FavoritesContext } from '../../../context/FavoritesContext'
 import { FaHeart } from "react-icons/fa6";
@@ -12,21 +12,21 @@ const Favorites = () => {
   return (
     <>
     <Row gutter={16}>
-    {favorites.length > 0 && favorites.map((p)=>{
-      return <Col className="gutter-row" span={6} key={p.id}>
+    {favorites.length > 0 && favorites.map((product)=>{
+      return <Col className="gutter-row" span={6} key={product.id}>
       <Card
         hoverable
         style={{ width: 240 }}
-        cover={<img alt={p.title} src={p.image} />}
+        cover={<img alt={product.title} src={product.image} />}
       >
        
-        <Meta title={<Link to={`${p.id}`}>{p.title}</Link>} description={<div>
+        <Meta title={<Link to={`${p.id}`}>{product.title}</Link>} description={<div>
 
-         <p>Price: $ {p.price}</p>
-         <p>{p.description.slice(0,50)}</p>
+         <p>Price: $ {product.price}</p>
+         <p>{product.description.slice(0,50)}</p>
          <span>
           
-             <FaHeart onClick={()=>toggleFavorites(p)}/>
+             <FaHeart onClick={()=>toggleFavorites(product)}/>
            
 
          </span>

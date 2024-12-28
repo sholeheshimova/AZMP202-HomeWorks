@@ -59,7 +59,7 @@ const Blog = () => {
             <p style={{ color: "red" }}>Price: {item.price}</p>
             <button onClick={()=>handleDetailClick(item.id)} style={{ cursor: 'pointer' }}>Details</button>
 
-              <Button onClick={() => toggleFavorites(p)}>{favorites.find((q) => q.id === p.id) ? <FaHeart />  : <FaRegHeart />}</Button>
+              <Button onClick={() => toggleFavorites(product)}>{favorites.find((q) => q.id === product.id) ? <FaHeart />  : <FaRegHeart />}</Button>
           </div>
         ))}
       </div>
