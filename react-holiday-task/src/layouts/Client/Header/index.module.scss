@@ -1,0 +1,27 @@
+.clientheader{
+    background-color: rgb(38, 127, 216);
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.5rem;
+        .clientlogo{
+            color: white;
+        }
+        ul{
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+            // list-style-type: none;
+            // text-decoration: none;
+            li{
+                // text-decoration: none;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}

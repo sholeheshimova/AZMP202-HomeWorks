@@ -1,0 +1,27 @@
+header{
+    background-color: maroon;
+    // padding: 2rem 0;
+    .header{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       padding: 1.5rem;
+       .adminlogo{
+        color: wheat;
+       }
+       ul{
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        li{
+            text-decoration: none;
+            a{
+                color: wheat;
+                text-decoration: none;
+            }
+        }
+       }
+    }
+}
