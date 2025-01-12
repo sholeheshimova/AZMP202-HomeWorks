@@ -1,0 +1,17 @@
+.adminheader{
+    background-color: darkgreen;
+    padding: 2rem 0;
+    h2{
+        color: white;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+   
+}
