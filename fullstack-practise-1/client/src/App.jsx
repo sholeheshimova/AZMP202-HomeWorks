@@ -10,6 +10,7 @@ import Add from './pages/Admin/Add'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Details from './pages/Client/Details'
+import Dashboard from './pages/Admin/Dashboard'
 
 const BASE_URL = "http://localhost:4000/products"
 
@@ -44,7 +45,8 @@ function App() {
       </Route>
       //admin
       <Route path='/admin' element={<AdminLayout />}>
-      <Route  index element={<Add />}/>
+      <Route  index element={<Dashboard  products={products}/>}/>
+      <Route  path='/admin/add' element={<Add />}/>
 
       </Route>
 

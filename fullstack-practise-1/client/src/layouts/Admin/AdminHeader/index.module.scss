@@ -7,9 +7,13 @@
     ul{
         display: flex;
         justify-content: center;
+        gap: 3rem;
+        list-style: none;
+        
         li{
             a{
                 color: white;
+                text-decoration: none;
             }
         }
     }

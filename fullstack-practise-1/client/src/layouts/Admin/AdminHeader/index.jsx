@@ -13,7 +13,10 @@ const AdminHeader = () => {
             <nav>
                 <ul>
                     <li>
-                        <NavLink to={"/admin"}>Add</NavLink>
+                        <NavLink to={"/admin"}>Dashboard</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={"/admin/add"}>Add</NavLink>
                     </li>
                 </ul>
             </nav>
