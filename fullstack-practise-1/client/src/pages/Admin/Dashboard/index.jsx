@@ -7,12 +7,12 @@ const BASE_URL = "http://localhost:4000/products"
 
 const Dashboard = ({ products }) => {
     const {favorites, toggleFavorites, clearFavorites} = useContext(FavoritesContext)
-  const [product, setProduct] = useState([]) // Başlanğıcda boş array olaraq təyin edirik
+  const [product, setProduct] = useState([]) 
 
   const getAllProducts = async () => {
     try {
       const response = await axios.get(BASE_URL)
-      setProduct(response.data || []) // Məlumat yoxdursa, boş array təyin edilir
+      setProduct(response.data || []) // 
     } catch (error) {
       console.log(error);
     }
@@ -25,7 +25,7 @@ const Dashboard = ({ products }) => {
   const columns = [
     {
         title: 'Image',
-        dataIndex: 'image', // Data sahəsi adını yoxlayırıq
+        dataIndex: 'image', 
         key: 'image',
         render: (image) => (
           <img
