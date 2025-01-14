@@ -7,10 +7,12 @@ import { FaShoppingBasket } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 import { FavoritesContext } from "../../../context/FavoritesContext";
+import { BasketContext } from "../../../context/BasketContext";
 
 const Home = ({ products }) => {
   const { favorites, toggleFavorites, clearFavorites } =
     useContext(FavoritesContext);
+    const {addToBasket} = useContext(BasketContext)
   console.log(favorites);
 
   return (
@@ -35,7 +37,7 @@ const Home = ({ products }) => {
                 <FaRegHeart />
                 {/* <FaHeart /> */}
               </Button>
-              <Button>
+              <Button onClick={() => {addToBasket(product)}}>
                 <FaShoppingBasket />
               </Button>
             </Card>
