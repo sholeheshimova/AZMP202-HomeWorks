@@ -1,0 +1,24 @@
+header{
+    background-color: #fff;
+    padding: 1.5rem 0;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .logo{
+            color: rgb(55, 55, 228);
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            li{
+                a{
+                    text-decoration: none;
+                    color: blue;
+                }
+            }
+
+        }
+    }
+}

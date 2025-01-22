@@ -1,0 +1,60 @@
+.sec1{
+    background-image: url('https://preview.colorlib.com/theme/winter/img/banner_img.png');
+    background-size: cover;
+    height: 500px;
+    h1{
+        text-align: left;
+       padding-top: 200px;
+       font-size: 60px;
+    }
+    button{
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 100px;
+        height: 40px;
+        background-color:rgb(30, 30, 242);
+        border: none;
+        color: white;
+        border-radius: 2px;
+        &:hover{
+            background-color: white;
+            border: none;
+            color: blue;
+        }
+    }
+
+}
+
+.sec2{
+  .cards{
+    margin-top: 2rem;
+    // margin-left: 8rem;
+    button{
+        margin-top: 1rem;
+        background-color: white;
+        border: 1px solid gray;
+        height: 30px;
+    }
+  }
+}
+.sec3{
+    h1{
+        text-align: center;
+        margin-top: 150px;
+        padding-bottom: 3rem;
+        font-size: 40px;
+    }
+}
+.sec4{
+    .cards{
+        display: flex;
+        margin-top: 100px ;
+        h3{
+            padding-top: 1rem;
+            color: blue;
+        }
+        p{
+            padding-top: 1rem;
+        }
+    }
+}
