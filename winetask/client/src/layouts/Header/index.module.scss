@@ -1,0 +1,23 @@
+header{
+    background-color:darkorchid;
+    padding:  1.5rem;
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .logo{
+            color: white;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
